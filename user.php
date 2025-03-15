@@ -3,7 +3,10 @@ class User {
 
     private string $name;
     private string $email;
-    
+
+    /**
+    * Método construtor
+    */
     public function __construct($name, $email) {
         $this->name = $name;
         $this->email = $email;
