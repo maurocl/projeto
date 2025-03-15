@@ -30,7 +30,7 @@ class SwitchFC
         return $this->ip;
     }
 
-    public function executeCmd(string cmd) {
+    public function executeCmd(string $cmd) {
         return true;
     }
 
